@@ -13,6 +13,14 @@ rec=pyscreenrec.ScreenRecorder()
 image_icon = PhotoImage(file="record.png")
 root.iconphoto(False, image_icon)
 
-#background images
+#heading
+lbl=Label(root,text="Python Screen REcorder",bg="#fff",font="arial 15 bold")
+lbl.pack(pady=20)
+
+image3=PhotoImage(file="recording.png")
+Label(root,image=image3,bd=0).pack(pady=30)
+
+#buttons
+
 
 root.mainloop()
